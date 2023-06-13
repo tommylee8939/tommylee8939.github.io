@@ -1,7 +1,7 @@
 ---
 title: 01. Linear Equation
-author: cotes
-date: 2019-08-09 20:57:00 +0800
+author: Kanghee Lee
+date: 2020-08-09 20:57:00 +0800
 categories: [Math for AI, Linear Algebra]
 tags: [getting started]
 pin: true
@@ -44,13 +44,13 @@ row equivalent
 
 EF vs  REF vs RREF
 
-<EF>
+#### EF
 
 1. 모든 원소가 0인 행렬 맨 아래로
 
- 2. leading entry of a row shoud be in a column to the right of the leading entry of the row above it.
+2. leading entry of a row shoud be in a column to the right of the leading entry of the row above it.
 
-<REF>
+#### REF
 
 (leading 1 등장)
 
@@ -60,7 +60,7 @@ EF vs  REF vs RREF
 
 3. 0이 아닌 원소를 갖는 연속된 두 행은 해당 행의 leading 1이 윗 행의 leading 1보다 오른쪽에 있어야 한다.
 
-<RREF>
+##### RREF
 
 REF + 
 
@@ -99,7 +99,7 @@ at least trivial solution x = 0
 
 only trivial solution when A has inverse : determinant ≠ 0
 
-<non - homogeneous>
+#### non - homogeneous
 
 unique solution → pivot in every column (correct)
 
@@ -109,7 +109,7 @@ pivot in every column → unique solution (incorrect)
 
 [ 0000 | b]꼴이여도 pivot in every column 이다
 
-<homogeneous>
+#### homogeneous
 
 unique solution ←→ pivot in every column (correct)
 
